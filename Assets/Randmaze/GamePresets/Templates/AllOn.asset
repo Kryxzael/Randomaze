@@ -34,4 +34,8 @@ MonoBehaviour:
     Spawnrate: 1
   - TileName: Conveyor
     Spawnrate: 1
+  - TileName: Block
+    Spawnrate: 1
+  - TileName: Button
+    Spawnrate: 1
   DisplayName: Party Mode
