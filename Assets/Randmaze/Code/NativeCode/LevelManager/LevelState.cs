@@ -52,9 +52,11 @@ public class LevelState : ICloneable
         return new LevelState()
         {
             KeyCollected = this.KeyCollected,
-            Perfect = this.KeyCollected,
+            Perfect = this.Perfect,
             Player = this.Player.Clone(),
-            Map = this.Map.Clone()
+            Map = this.Map.Clone(),
+            LevelCoinCount = this.LevelCoinCount,
+            CoinsCollected = this.CoinsCollected
         };
     }
 }
