@@ -68,6 +68,13 @@ public class PlayerState : ICloneable
     /// </summary>
     public void Kill(CauseOfDeath cause)
     {
+        //Do not kill a player in god mode
+        if (GameState.GodMode && cause != CauseOfDeath.GiveUp)
+        {
+            return;
+        }
+
+
         Alive = false;
 
 

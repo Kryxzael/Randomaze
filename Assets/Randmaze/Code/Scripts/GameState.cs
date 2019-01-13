@@ -16,6 +16,8 @@ public class GameState : MonoBehaviour
     private LevelHistory _log = new LevelHistory();
     private System.Random _rng, _rng2;
     private GameEvents _ge = new GameEvents();
+    private bool _debug = false;
+    private bool _god = false;
 
     /// <summary>
     /// The current level
@@ -102,6 +104,36 @@ public class GameState : MonoBehaviour
         get
         {
             return _this._ge;
+        }
+    }
+
+    /// <summary>
+    /// Is debug mode enabled? Debug mode can be enabled by pressing 'F10'
+    /// </summary>
+    public static bool DebugMode
+    {
+        get
+        {
+            return _this._debug;
+        }
+        set
+        {
+            _this._debug = value;
+        }
+    }
+
+    /// <summary>
+    /// Is godmode enabled. Godmode can be toggled by pressing 'G' while debug mode is enabled
+    /// </summary>
+    public static bool GodMode
+    {
+        get
+        {
+            return _this._god;
+        }
+        set
+        {
+            _this._god = value;
         }
     }
 
