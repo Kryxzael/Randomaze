@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TileRoulette
   m_EditorClassIdentifier: 
   Frames:
-  - Sprite: {fileID: 0}
+  - Sprite: {fileID: 21300014, guid: 6b6dd569da222c64db32c6348919c474, type: 3}
     FrameTimeMultiplier: 1
   FrameTime: 1
   FrameTimeDivider: 60

@@ -10,10 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adef74459c54efe4da176991c19c4aed, type: 3}
-  m_Name: TileRoulette
+  m_Name: Omni
   m_EditorClassIdentifier: 
   Frames:
-  - Sprite: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 4e99efc00c0ff154db390dc9a4db5d36, type: 3}
+    FrameTimeMultiplier: 1
+  - Sprite: {fileID: 21300030, guid: 3436aad73cd4a3a4e950e6c130cb3357, type: 3}
+    FrameTimeMultiplier: 1
+  - Sprite: {fileID: 21300030, guid: 65422927a3a31e74b98db1f2e872bcf3, type: 3}
+    FrameTimeMultiplier: 1
+  - Sprite: {fileID: 21300030, guid: 47f5c48cd4959e943bef9d657cd5f1a9, type: 3}
+    FrameTimeMultiplier: 1
+  - Sprite: {fileID: 21300030, guid: 5530f2808f3de434a8936d6a0ac91cf8, type: 3}
     FrameTimeMultiplier: 1
   FrameTime: 1
-  FrameTimeDivider: 60
+  FrameTimeDivider: 3

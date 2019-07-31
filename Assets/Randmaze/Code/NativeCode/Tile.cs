@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,8 +55,12 @@ public abstract class Tile
         new Tiles.Roulette()
     };
 
+    /// <summary>
+    /// Does this tile use a dynamicly connected texture scheme.
+    /// </summary>
     public virtual bool IsDynamicallyConnectedTile()
     {
+        //Please note that legacy textures are required for the custom editor to work
         return false;
     }
 

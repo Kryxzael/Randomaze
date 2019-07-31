@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e176ddaf1647c7c45b4db9fa0581a4af, type: 3}
   m_Name: TileRoulette
   m_EditorClassIdentifier: 
-  TopLeft: {fileID: 0}
-  Top: {fileID: 0}
-  TopRight: {fileID: 0}
-  Left: {fileID: 0}
-  Middle: {fileID: 0}
-  Right: {fileID: 0}
-  BottomLeft: {fileID: 0}
-  Bottom: {fileID: 0}
-  BottomRight: {fileID: 0}
-  Single: {fileID: 0}
-  Vertical: {fileID: 0}
-  TopVertical: {fileID: 0}
-  BottomVertical: {fileID: 0}
-  Horizontal: {fileID: 0}
-  LeftHorizontal: {fileID: 0}
-  RightHorizontal: {fileID: 0}
+  TopLeft: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Top: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  TopRight: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Left: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Middle: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Right: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  BottomLeft: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Bottom: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  BottomRight: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Single: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Vertical: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  TopVertical: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  BottomVertical: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  Horizontal: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  LeftHorizontal: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
+  RightHorizontal: {fileID: 11400000, guid: b82cd1fd3bb15ff4fbca0c4f0272bf3a, type: 2}
