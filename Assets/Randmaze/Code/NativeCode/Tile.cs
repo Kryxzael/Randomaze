@@ -52,6 +52,7 @@ public abstract class Tile
         new Tiles.KeyLocked(),
         new Tiles.KeyCollected(),
         new Tiles.ExitLocked(),
+        new Tiles.Roulette()
     };
 
     public virtual bool IsDynamicallyConnectedTile()

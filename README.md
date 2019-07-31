@@ -48,6 +48,8 @@ Are solid from one of its sides. Although you are free to drive over it from any
 * **Bridges.**
 Solid from two sides. Unlike conveyors, these tiles are also solid from the inside, meaning you can't step out of them through their solid sides.
 
+* **Roulettes.**
+These tiles copy the appearance and behavior of a different tile every time you move.
 
 ## Difficulties & Presets
 Randomaze has four traditional difficulty settings:
