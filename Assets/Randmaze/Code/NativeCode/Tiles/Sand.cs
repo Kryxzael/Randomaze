@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace Tiles
 {
@@ -19,7 +20,21 @@ namespace Tiles
 
         public override void OnStep(PlayerState player)
         {
-            GameState.CurrentLevel.Map.SetTile(player.Position.x, player.Position.y, ByName("Lava"));
+            //Listens for the player's next move for then to collapse the tile
+            GameState.Events.OnPlayerMoved.AddListener(OnStepOff);
+        }
+
+        private void OnStepOff(PlayerState player, Vector2Int origPos)
+        {
+            //Player attempted to move, but was obstructed. Do not collapse the tile
+            if (player.Position == origPos)
+            {
+                return;
+            }
+
+            //Collapses the tile into a lava tile when the player steps off
+            GameState.CurrentLevel.Map.SetTile(origPos.x, origPos.y, ByName("Lava"));
+            GameState.Events.OnPlayerMoved.RemoveListener(OnStepOff);
         }
 
         public override bool IsDynamicallyConnectedTile()
