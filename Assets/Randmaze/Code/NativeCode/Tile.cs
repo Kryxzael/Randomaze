@@ -54,6 +54,12 @@ public abstract class Tile
         new Tiles.ExitLocked(),
     };
 
+    public virtual bool IsDynamicallyConnectedTile()
+    {
+        return false;
+    }
+
+
     /// <summary>
     /// Retrives a tile from AllTiles by name
     /// </summary>

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -96,6 +96,12 @@ public class LevelMap : ICloneable
         if (!silent)
         {
             GameState.Events.OnTileUpdated.Invoke(new Vector2Int(x, y));
+
+            //Updates neighbours. This is used to update dynamic tiles of sand
+            if (IsInBounds(x - 1, y)) GameState.Events.OnNeighbourTileUpdated.Invoke(new Vector2Int(x - 1, y));
+            if (IsInBounds(x + 1, y)) GameState.Events.OnNeighbourTileUpdated.Invoke(new Vector2Int(x + 1, y));
+            if (IsInBounds(x, y - 1)) GameState.Events.OnNeighbourTileUpdated.Invoke(new Vector2Int(x, y - 1));
+            if (IsInBounds(x, y + 1)) GameState.Events.OnNeighbourTileUpdated.Invoke(new Vector2Int(x, y + 1));
         }
         
 

@@ -21,5 +21,10 @@ namespace Tiles
         {
             player.Kill(CauseOfDeath.Lava);
         }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
+        }
     }
 }

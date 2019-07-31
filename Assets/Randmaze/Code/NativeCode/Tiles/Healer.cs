@@ -21,5 +21,10 @@ namespace Tiles
         {
             player.SetElectric(false);
         }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
+        }
     }
 }

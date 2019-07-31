@@ -21,5 +21,10 @@ namespace Tiles
         {
             player.Move(player.Rotation);
         }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
+        }
     }
 }

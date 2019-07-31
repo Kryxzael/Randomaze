@@ -28,5 +28,10 @@ namespace Tiles
                 player.Extinguish();
             }
         }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
+        }
     }
 }

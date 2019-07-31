@@ -28,6 +28,7 @@ public class LevelWrapper : MonoBehaviour
         GameState.Events.OnLevelStart.AddListener(OnLevelEnter);
         GameState.Events.OnLevelEnd.AddListener(OnLevelEnd);
         GameState.Events.OnTileUpdated.AddListener(OnTileUpdated);
+        GameState.Events.OnNeighbourTileUpdated.AddListener(OnTileUpdated);
         GameState.Events.OnPlayerMoved.AddListener(SpreadAcid);
 
         //DEBUG

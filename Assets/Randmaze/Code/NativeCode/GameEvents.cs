@@ -20,6 +20,7 @@ public class GameEvents
     public readonly PlayerKilledUnityEvent OnPlayerKilled = new PlayerKilledUnityEvent();
 
     public readonly TileUpdateUnityEvent OnTileUpdated = new TileUpdateUnityEvent();
+    public readonly TileUpdateUnityEvent OnNeighbourTileUpdated = new TileUpdateUnityEvent();
 
     public readonly UnityEvent OnKeyCollected = new UnityEvent();
     public readonly UnityEvent OnCoinCollected = new UnityEvent();

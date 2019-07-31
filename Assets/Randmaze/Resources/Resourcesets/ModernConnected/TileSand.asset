@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e176ddaf1647c7c45b4db9fa0581a4af, type: 3}
+  m_Name: TileSand
+  m_EditorClassIdentifier: 
+  TopLeft: {fileID: 11400000, guid: 281392bfbce21c744a35ccd15677c679, type: 2}
+  Top: {fileID: 11400000, guid: f7353ab690c53ae42aed65ad0ff3cfcc, type: 2}
+  TopRight: {fileID: 11400000, guid: 73730507ed1b3ed4289f8b4241f02ea6, type: 2}
+  Left: {fileID: 11400000, guid: 0225e86b8ae965a4cb4d9e94a98ce1ba, type: 2}
+  Middle: {fileID: 11400000, guid: e56c395555376714abe5a9b770c59397, type: 2}
+  Right: {fileID: 11400000, guid: 0bdf23a5829e959428f65f472e3f83f2, type: 2}
+  BottomLeft: {fileID: 11400000, guid: a117a42081327d54ca02746223087f87, type: 2}
+  Bottom: {fileID: 11400000, guid: d87d7f3575ef10b408892dd02d15030c, type: 2}
+  BottomRight: {fileID: 11400000, guid: a2d99be955e68504da2a10ca400ed12e, type: 2}
+  Single: {fileID: 11400000, guid: 758768fdb68a8bf4a844d165a3819601, type: 2}
+  Vertical: {fileID: 11400000, guid: bd527ad2badfdfd49a23f22037610a7d, type: 2}
+  TopVertical: {fileID: 11400000, guid: 1a70e49fd76b585478a2dddf9b18d87c, type: 2}
+  BottomVertical: {fileID: 11400000, guid: f4f1c7fbcec15c7459c40789e77e6c5b, type: 2}
+  Horizontal: {fileID: 11400000, guid: b0a5552f986e04249a44096b20d72483, type: 2}
+  LeftHorizontal: {fileID: 11400000, guid: 6756bcd8d52c8c8479bf21a0f3ef02ed, type: 2}
+  RightHorizontal: {fileID: 11400000, guid: 4e67b9e8396d5354cbae601518b0b1d4, type: 2}

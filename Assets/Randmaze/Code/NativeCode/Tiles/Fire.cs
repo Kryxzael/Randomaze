@@ -21,5 +21,10 @@ namespace Tiles
         {
             player.SetOnFire();
         }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
+        }
     }
 }

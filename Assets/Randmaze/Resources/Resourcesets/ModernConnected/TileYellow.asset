@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e176ddaf1647c7c45b4db9fa0581a4af, type: 3}
+  m_Name: TileYellow
+  m_EditorClassIdentifier: 
+  TopLeft: {fileID: 11400000, guid: 81dfca6c6c5b1d74888d19fbbcc1fa42, type: 2}
+  Top: {fileID: 11400000, guid: a7977a5aa2d2c62468cc363f2692b611, type: 2}
+  TopRight: {fileID: 11400000, guid: b8c1593fca210a54bb02db60726e3c7d, type: 2}
+  Left: {fileID: 11400000, guid: cd3bb57ccf722794284bf8c9f8699aff, type: 2}
+  Middle: {fileID: 11400000, guid: 38c1a87b2fa042348b40b2d035c2bd06, type: 2}
+  Right: {fileID: 11400000, guid: 906c61aaaa2a1ad4580e0fdaf5106d61, type: 2}
+  BottomLeft: {fileID: 11400000, guid: 93d8433489ef3234c8e38b1a7978794b, type: 2}
+  Bottom: {fileID: 11400000, guid: 9c3485c881804ac41b0100a0a708a7a4, type: 2}
+  BottomRight: {fileID: 11400000, guid: e5d996105fb1ebd47820e679a288bd7f, type: 2}
+  Single: {fileID: 11400000, guid: d8ffb1d6c19b4d241bf9a3c631fe82d7, type: 2}
+  Vertical: {fileID: 11400000, guid: e80f2daff03111447aee354d2c0dce94, type: 2}
+  TopVertical: {fileID: 11400000, guid: 26e7a9a309890c3479574c496461bd98, type: 2}
+  BottomVertical: {fileID: 11400000, guid: c721ffe5864a6764a8b57851d3003a00, type: 2}
+  Horizontal: {fileID: 11400000, guid: 558bd30c2b658f747aa782f1cddec5de, type: 2}
+  LeftHorizontal: {fileID: 11400000, guid: 57c50f6dccd2368468be696c566ce632, type: 2}
+  RightHorizontal: {fileID: 11400000, guid: 2fccd82630dff5448b69840d3e3a8c90, type: 2}

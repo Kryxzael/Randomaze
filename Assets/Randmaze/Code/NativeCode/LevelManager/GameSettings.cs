@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +9,7 @@ using UnityEngine;
 /// </summary>
 public class GameSettings
 {
-    private ResourceSet _rs = new ResourceSet("Modern", null);
+    private ResourceSet _rs = new ResourceSet("ModernConnected", new ResourceSet("Modern", null)); //Parents to non-connected tiles for legacy support used by, among others, the custom picker
     private bool _key, _blind, _inf, _challange, _genPortals, _coin, _randomized;
     private bool _seedRandom = true;
     private Vector2Int _size = new Vector2Int(10, 10);

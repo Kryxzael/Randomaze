@@ -19,7 +19,12 @@ namespace Tiles
 
         public override void OnStep(PlayerState player)
         {
-            GameState.CurrentLevel.Map.SetTile(player.Position.x, player.Position.y, ByName("Quicksand"));
+            GameState.CurrentLevel.Map.SetTile(player.Position.x, player.Position.y, ByName("Lava"));
+        }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
         }
     }
 
@@ -43,6 +48,11 @@ namespace Tiles
         public override bool ShowInCustomInspector()
         {
             return false;
+        }
+
+        public override bool IsDynamicallyConnectedTile()
+        {
+            return true;
         }
     }
 }
